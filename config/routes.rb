@@ -2,6 +2,7 @@ Miniblog::Application.routes.draw do
   resources :posts
 
   get "home/index"
+  get '/mu-5f691b8e-da4578df-b8a9a1fb-2738a44e' => "home#blitz_auth"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
